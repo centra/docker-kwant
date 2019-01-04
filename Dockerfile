@@ -17,7 +17,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY kwant-latest.yml kwant-stable.yml kwant-stable-no-extras.yml /
 
-RUN conda env create -qf kwant-stable.yml
-RUN conda env create -qf kwant-stable-no-extras.yml
 RUN conda env create -qf kwant-latest.yml
-
