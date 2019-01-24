@@ -13,9 +13,9 @@ dependencies:
     - blas #=1.1 openblas
     - openblas #=0.2.20
     # Build toolchain
-    - toolchain
+    - toolchain3
     - cython
-    - gcc
+    - gcc_linux-64
     - libgfortran
     ## Dev Dependencies
     # Testing
